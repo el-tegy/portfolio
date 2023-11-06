@@ -8,15 +8,15 @@ function Type() {
         strings: [
           "Data Engineer",
           "DevOps Engineer",
-          "Databricks Certified Data Engineer - Associate",
-          "Databricks Certified AWS Platform Architect",
-          "Databricks Certified Azure Platform Architect",
-          "Databricks Certified GCP Platform Architect",
-          "Incoming AWS Certified Developer - Associate",
+          "Databricks Certified Data Engineer",
+          "Databricks Certified AWS PA",
+          "Databricks Certified Azure PA",
+          "Databricks Certified GCP PA",
+          "Incoming AWS Certified Developer",
         ],
         autoStart: true,
         loop: true,
-        deleteSpeed: 50,
+        deleteSpeed: 45,
       }}
     />
   );
