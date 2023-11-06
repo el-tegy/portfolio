@@ -8,8 +8,11 @@ function Type() {
         strings: [
           "Data Engineer",
           "DevOps Engineer",
-          "Databricks Certified Data Engineer",
-          "AWS Certified Developer - Associate",
+          "Databricks Certified Data Engineer - Associate",
+          "Databricks Certified AWS Platform Architect",
+          "Databricks Certified Azure Platform Architect",
+          "Databricks Certified GCP Platform Architect",
+          "Incoming AWS Certified Developer - Associate",
         ],
         autoStart: true,
         loop: true,
