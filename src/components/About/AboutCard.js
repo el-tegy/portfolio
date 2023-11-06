@@ -8,33 +8,41 @@ function AboutCard() {
       <Card.Body>
         <blockquote className="blockquote mb-0">
           <p style={{ textAlign: "justify" }}>
-            Hi Everyone, I am <span className="purple">Soumyajit Behera </span>
-            from <span className="purple"> Bhubaneswar, India.</span>
-            <br /> I am a final year student pursuing an Integrated MSc (IMSc)
-            in Maths and Computing at BIT Mesra.
+            Hi Everyone, I am <span className="purple">Elisée TEGUE </span>
+            from <span className="purple"> Paris, France.</span>
+            <br /> I am a final year student pursuing a master's degree in Big Data for Digital 
+            Transformation at ESIGELEC engineering school.
             <br />
-            Additionally, I am currently employed as a software developer at
-            Juspay.
+            Additionally, I am a Data Engineer apprentice at the Center of Excellence Data of 
+            ENGIE B2C France since September 2022.
             <br />
             <br />
             Apart from coding, some other activities that I love to do!
           </p>
           <ul>
             <li className="about-activity">
-              <ImPointRight /> Playing Games
+              <ImPointRight /><u>Eloquence</u>: I took part in a public speaking competition during my 
+              preparatory class, where I finished quarter-finalist. It was a unique experience that taught me many of 
+              the essentials of public speaking.
             </li>
             <li className="about-activity">
-              <ImPointRight /> Writing Tech Blogs
+              <ImPointRight /><u>Attending tech conferences</u>: this keeps me up to date with the latest 
+              technological advances while broadening my field of expertise. That's why I took part 
+              in the GitHub Universe Cloud Skills Challenge 2023 as part of this year GitHub Universe 
+              annual conference. Conferences I usually attend: Microsoft Build, Microsoft Ignite, AWS 
+              re:Invent. 
             </li>
             <li className="about-activity">
-              <ImPointRight /> Travelling
+              <ImPointRight /><u>Travelling</u>: To date, I've visited 05 countries (Ethiopia, Cameroon, 
+              Belgium, Germany, Luxembourg).
             </li>
           </ul>
 
           <p style={{ color: "rgb(155 126 172)" }}>
-            "Strive to build things that make a difference!"{" "}
+            "Strive every day to become a Data Engineer who produces not executable but industrializable
+            code!"{" "}
           </p>
-          <footer className="blockquote-footer">Soumyajit</footer>
+          <footer className="blockquote-footer">Elisée</footer>
         </blockquote>
       </Card.Body>
     </Card>
