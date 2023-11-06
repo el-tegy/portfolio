@@ -28,9 +28,10 @@ function AboutCard() {
             <li className="about-activity">
               <ImPointRight /><u>Attending tech conferences</u>: this keeps me up to date with the latest 
               technological advances while broadening my field of expertise. That's why I took part 
-              in the GitHub Universe Cloud Skills Challenge 2023 as part of this year GitHub Universe 
-              annual conference. Conferences I usually attend: Microsoft Build, Microsoft Ignite, AWS 
-              re:Invent. 
+              in <a href="https://techcommunity.microsoft.com/t5/educator-developer-blog/announcing-github-universe-cloud
+              -skills-challenge/ba-p/3943877" target="_blank" rel="noopener noreferrer"> GitHub Universe Cloud Skills Challenge 
+              2023</a> as part of this year GitHub Universe annual conference. Conferences I usually attend: Microsoft Build, Microsoft 
+              Ignite, AWS re:Invent. 
             </li>
             <li className="about-activity">
               <ImPointRight /><u>Travelling</u>: To date, I've visited 05 countries (Ethiopia, Cameroon, 
