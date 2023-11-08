@@ -1,6 +1,6 @@
 <h2 align="center">
-  Portfolio Website - v2.0<br/>
-  <a href="https://soumyajit.vercel.app/" target="_blank">soumyajit.tech</a>
+  My Portfolio Website<br/>
+  <a href="https://eliseetegue.vercel.app/" target="_blank">eliseetegue.vercel.app</a>
 </h2>
 <div align="center">
   <img alt="Demo" src="./Images/readme-img.png" />
