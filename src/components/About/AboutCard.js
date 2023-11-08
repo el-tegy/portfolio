@@ -43,7 +43,35 @@ function AboutCard() {
             "Strive every day to become a Data Engineer who produces not executable but industrializable
             code!"{" "}
           </p>
-          <footer className="blockquote-footer">Elisée</footer>
+          <footer className="blockquote-footer">Elisée TEGUE</footer>
+        </blockquote>
+        <h1 style={{ fontSize: "2.1em", paddingBottom: "20px" }}>
+               
+            </h1>
+        <h1 style={{ fontSize: "2.1em", paddingBottom: "20px" }}>
+               
+          </h1>
+        <h1 style={{ fontSize: "2.1em", paddingBottom: "20px" }}>
+               
+            </h1>
+        <blockquote className="blockquote mb-0">
+          <h1 style={{ fontSize: "2.1em", paddingBottom: "20px" }}>
+              What do <strong className="purple">they say about me?</strong>
+            </h1>
+          <p style={{ color: "white" }}>
+            "Elisée was able to see things that were not obvious to see..."{" "}
+          </p>
+          <footer className="blockquote-footer">MBO, Deputy IS-Datawarehouse Manager, ENGIE </footer>
+
+          <p style={{ color: "white" }}>
+            "Elisée went beyond my expectations..."{" "}
+          </p>
+          <footer className="blockquote-footer">SRC, Tech Lead, ENGIE</footer>
+
+          <p style={{ color: "white" }}>
+            "Elisée is one of the best students in his class, and shows great rigor and determination..."{" "}
+          </p>
+          <footer className="blockquote-footer">FB, Campus Director, ESIGELEC Poitiers</footer>
         </blockquote>
       </Card.Body>
     </Card>
