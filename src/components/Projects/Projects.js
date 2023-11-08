@@ -37,7 +37,7 @@ function Projects() {
                 </span>
               }
               ghLink="https://github.com/el-tegy/chatBI"
-              //demoLink="https://chatify-49.web.app/"
+              //demoLink=""
             />
           </Col>
 
@@ -61,7 +61,7 @@ function Projects() {
                 </span>        
               }
               ghLink="https://github.com/el-tegy/pycounts_ja2327072339"
-              //demoLink="https://blogs.soumya-jit.tech/"
+              //demoLink=""
             />
           </Col>
 
@@ -83,7 +83,7 @@ function Projects() {
                 </span>
               }
               ghLink="https://github.com/el-tegy/stream_persona"
-              //demoLink="https://editor.soumya-jit.tech/"              
+              //demoLink=""              
             />
           </Col>
 
@@ -105,7 +105,7 @@ function Projects() {
                 </span>
               }
               ghLink="https://github.com/el-tegy/price_pulse"
-              // demoLink="https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley" <--------Please include a demo link here
+              // demoLink=""
             />
           </Col>
 
@@ -123,7 +123,7 @@ function Projects() {
                 </span>
               }
               ghLink="https://github.com/el-tegy/asp_dotnet_core_api_project_s8_bdtn"
-              //demoLink="https://plant49-ai.herokuapp.com/"
+              //demoLink=""
             />
           </Col>
         </Row>
