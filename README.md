@@ -50,6 +50,6 @@ This project was built using these technologies.
 
 Soumyajit repo at [Soumyajit4419](https://github.com/soumyajit4419/Portfolio).
 
-### Show your support
+## Show your support
 
 Give a ⭐ if you like this website!
