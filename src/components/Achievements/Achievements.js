@@ -3,7 +3,7 @@ import { Container, Row, Col } from "react-bootstrap";
 import AchievementCard from "./AchievementCards";
 import Particle from "../Particle";
 import databricks_de_asso_img from "../../Assets/Achievements/images/Associate-badge-eng-2x.png";
-import databricks_aws_dev_asso_img from "../../Assets/Achievements/images/AWS-Certified-Developer-Associate_badge.png";
+import aws_cfl_img from "../../Assets/Achievements/images/cfl.png";
 import databricks_aws_pa_img from "../../Assets/Achievements/images/fundamentals-badge-platform-architect-aws.png";
 import databricks_azure_pa_img from "../../Assets/Achievements/images/fundamentals-badge-platform-architect-azure.png";
 import databricks_gcp_da_img from "../../Assets/Achievements/images/fundamentals-badge-platform-architect-gcp.png";
@@ -43,14 +43,13 @@ function Achievements() {
           </Col> 
           <Col md={4} className="project-card">
             <AchievementCard
-              imgPath={databricks_aws_dev_asso_img}
+              imgPath={aws_cfl_img}
               isBlog={false}
-              title={<span className="purple">AWS Certified Developer Associate</span>}
+              title={<span className="purple">AWS Certified Cloud Practitioner</span>}
               description={
-                <span>
-                    The AWS Certified Developer - Associate certification underscores my comprehensive understanding of core AWS services, uses, and basic 
-                    AWS architecture best practices, as well as my proficiency in developing, deploying, and debugging cloud-based applications using AWS. 
-                    It serves as a testament to my hands-on experience in the AWS environment, ensuring I can leverage AWS to build scalable, high-performance 
+                <span>.
+                    The AWS Cloud Practitioner certification underscores my comprehensive understanding of core AWS services. It is a valuable asset for any technology professional, offering a comprehensive understanding of the AWS Cloud platform. 
+                    This serves as a testament to my hands-on experience in the AWS environment, ensuring I can leverage AWS to build scalable, high-performance 
                     applications.
                 </span>        
               }

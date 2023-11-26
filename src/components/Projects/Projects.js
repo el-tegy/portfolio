@@ -4,6 +4,7 @@ import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
 import pycounts from "../../Assets/Projects/pycounts.png";
 import wpa from "../../Assets/Projects/wpa.png";
+import gocod from "../../Assets/Projects/gocod.png";
 import chatBI from "../../Assets/Projects/chatBI.png";
 import price_pulse from "../../Assets/Projects/price_pulse.png";
 import stream_persona from "../../Assets/Projects/stream_persona.png";
@@ -28,8 +29,8 @@ function Projects() {
               description={
                 <span>
                   A final-year engineering project involving the creation 
-                  of <span className="purple">a Large Language Model LLM based on GPT-4 </span> that will be capable of 
-                  assisting the BI engineer throughout the entire delivery chain: from analysing 
+                  of <span className="purple">a Large Language Model LLM</span> based on the combination of 03 foundation models: <span className="purple">Llama2 7B - Palm2 137B - CodeLlama 34B</span> using 
+                  <span className="purple"> Langchain </span> that will be capable of assisting the BI engineer throughout the entire delivery chain: from analysing 
                   the downstream business need and choosing the appropriate type of visualizations
                   to creating and interpreting those visualizations. With my 05 teammates, we plan 
                   to integrate our tool with Power BI initially, before extending it to Tableau and 
@@ -109,6 +110,23 @@ function Projects() {
             />
           </Col>
 
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={gocod}
+              isBlog={false}
+              title="gocod"
+              description={
+                <span>
+                  This solution is designed to help developers in general to be more productive in their projects. Here are its main features: quick and easy project creation, template recommendation based on answers to a questionnaire, template 
+                  creation and sharing, adding templates to preferences. This project was developed using <span className="purple">Python FastAPI and Pydantic</span> for the back-end and <span className="purple">React</span> for the front-end. Code quality is assured by Pylint, Black and Isort with Pre-Commit. 
+                  <span className="purple"> MongoDB</span> is used to store user data, while a <span className="purple">Neo4j</span> database contains the data on which the recommendations made to users are based. The complete solution was deployed in <span className="purple">GCP Compute Instance</span> using 
+                  <span className="purple"> Terraform</span> and <span className="purple">Ansible</span> to manage and provision the infrastructure. Finally, the API documentation was generated using <span className="purple">Sphinx</span>.
+                </span>
+              }
+              ghLink="https://github.com/nosql-esigelec/sprint-1-lt2a/"
+              //demoLink=""
+            />
+          </Col>
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={wpa}
