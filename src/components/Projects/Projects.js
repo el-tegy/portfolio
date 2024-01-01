@@ -25,20 +25,43 @@ function Projects() {
             <ProjectCard
               imgPath={chatBI}
               isBlog={false}
-              title="chatBI"
+              title="TolkAI"
               description={
                 <span>
                   A final-year engineering project involving the creation 
-                  of <span className="purple">a Large Language Model LLM</span> based on the combination of 03 foundation models: <span className="purple">Llama2 7B - Palm2 137B - CodeLlama 34B</span> using 
-                  <span className="purple"> Langchain </span> that will be capable of assisting the BI engineer throughout the entire delivery chain: from analysing 
+                  of <span className="purple">a Large Language Model (LLM)</span> based on the combination of 02 foundation models: <span className="purple">Gemini Pro - Gemini Pro Vision - Codey</span> using 
+                  <span className="purple"> LangChain </span> that will be capable of assisting the BI engineer throughout the entire delivery chain: from analysing 
                   the downstream business need and choosing the appropriate type of visualizations
                   to creating and interpreting those visualizations. With my 05 teammates, we plan 
-                  to integrate our tool with Power BI initially, before extending it to Tableau and 
-                  Qlik Sense later on
+                  to integrate our tool with Power BI, Tableau and Qlik Sense initially, before extending it to other software later on.
                 </span>
               }
-              ghLink="https://github.com/el-tegy/chatBI"
+              ghLink="https://github.com/el-tegy/TolkAI"
               //demoLink=""
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={stream_persona}
+              isBlog={false}
+              title="reddit_realtime_sentiment_analysis"
+              description={
+                <span>
+                  This project is a sophisticated real-time data streaming architecture utilizing some of the most advanced and widely-used technologies in the industry and is built on 
+                  <span className="purple"> Google Cloud Kubernetes Engine (GKE)</span>. 
+                  It leverages <span className="purple">Terraform</span>, allowing for efficient and predictable deployments. The data pipeline begins with data 
+                  production from Reddit through the <span className="purple">PRAW API</span>, utilizing <span className="purple">Python</span>. This data is 
+                  then sent into <span className="purple">Apache Kafka</span>, which serves as the backbone of the system, handling high-throughput data streams with robustness. 
+                  <span className="purple"> Kafdrop</span> is used for monitoring Kafka, providing a visual interface for broker health and topic management. As far as they are concerned, 
+                  Topics mainly consist on subreddits comments and are consumed by <span className="purple">Apache Spark</span>. For data storage, <span className="purple">Apache Cassandra</span> is 
+                  chosen for its high availability and performance. Finally, the visualization and monitoring of processed data are accomplished using <span className="purple"> Grafana</span>, in order to present data 
+                  insights effectively to end-users.
+                  This project is an embodiment of my practical experience with a stack of technologies pivotal for real-time data processing in an enterprise context. 
+                </span>
+              }
+              ghLink="https://github.com/el-tegy/reddit_realtime_sentiment_analysis"
+              //demoLink=""              
             />
           </Col>
 
@@ -68,23 +91,19 @@ function Projects() {
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={stream_persona}
+              imgPath={gocod}
               isBlog={false}
-              title="stream_persona"
+              title="gocod"
               description={
                 <span>
-                  I'm glad to share this personal project, <span className="purple">stream_persona</span>. 
-                  It's a comprehensive data engineering solution that integrates seamlessly with today's streaming data ecosystems.
-                  In developing stream_persona, I've crafted a seamless system for streaming data operations, leveraging 
-                  a cutting-edge stack including <span className="purple">Apache Kafka, Airflow, Spark, and Cassandra</span>, and embodied best practices in DevOps, CI/CD with GitHub Actions, 
-                  all while upholding high code quality and contributing to open source standards. This project reflects a microcosm 
-                  of a data engineer's essential skills in today's tech landscape. Through this project, I've honed my skills in 
-                  building scalable, efficient, and robust data pipelines, crucial for any data engineer in the tech industry today. This project is also a testament 
-                  to my commitment to <span className="purple">produce code that respects quality and best practices.</span>
+                  This solution is designed to help developers in general to be more productive in their projects. Here are its main features: quick and easy project creation, template recommendation based on answers to a questionnaire, template 
+                  creation and sharing, adding templates to preferences. This project was developed using <span className="purple">Python FastAPI and Pydantic</span> for the back-end and <span className="purple">React</span> for the front-end. Code quality is assured by Pylint, Black and Isort with Pre-Commit. 
+                  <span className="purple"> MongoDB</span> is used to store user data, while a <span className="purple">Neo4j</span> database contains the data on which the recommendations made to users are based. The complete solution was deployed in <span className="purple">GCP Compute Instance</span> using 
+                  <span className="purple"> Terraform</span> and <span className="purple">Ansible</span> to manage and provision the infrastructure. Finally, the API documentation was generated using <span className="purple">Sphinx</span>.
                 </span>
               }
-              ghLink="https://github.com/el-tegy/stream_persona"
-              //demoLink=""              
+              ghLink="https://github.com/nosql-esigelec/sprint-1-lt2a/"
+              //demoLink=""
             />
           </Col>
 
@@ -110,23 +129,6 @@ function Projects() {
             />
           </Col>
 
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={gocod}
-              isBlog={false}
-              title="gocod"
-              description={
-                <span>
-                  This solution is designed to help developers in general to be more productive in their projects. Here are its main features: quick and easy project creation, template recommendation based on answers to a questionnaire, template 
-                  creation and sharing, adding templates to preferences. This project was developed using <span className="purple">Python FastAPI and Pydantic</span> for the back-end and <span className="purple">React</span> for the front-end. Code quality is assured by Pylint, Black and Isort with Pre-Commit. 
-                  <span className="purple"> MongoDB</span> is used to store user data, while a <span className="purple">Neo4j</span> database contains the data on which the recommendations made to users are based. The complete solution was deployed in <span className="purple">GCP Compute Instance</span> using 
-                  <span className="purple"> Terraform</span> and <span className="purple">Ansible</span> to manage and provision the infrastructure. Finally, the API documentation was generated using <span className="purple">Sphinx</span>.
-                </span>
-              }
-              ghLink="https://github.com/nosql-esigelec/sprint-1-lt2a/"
-              //demoLink=""
-            />
-          </Col>
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={wpa}
