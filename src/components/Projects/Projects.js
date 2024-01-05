@@ -48,8 +48,8 @@ function Projects() {
               title="reddit_realtime_sentiment_analysis"
               description={
                 <span>
-                  This project is a sophisticated real-time data streaming architecture utilizing some of the most advanced and widely-used technologies in the industry and is built on 
-                  <span className="purple"> Google Cloud Kubernetes Engine (GKE)</span>. 
+                  This project is a sophisticated real-time data streaming architecture utilizing some of the most advanced and widely-used technologies in the industry, 
+                  built with <span className="purple">Kubernete</span> and deployed in <span className="purple">GCP. </span>
                   It leverages <span className="purple">Terraform</span>, allowing for efficient and predictable deployments. The data pipeline begins with data 
                   production from Reddit through the <span className="purple">PRAW API</span>, utilizing <span className="purple">Python</span>. This data is 
                   then sent into <span className="purple">Apache Kafka</span>, which serves as the backbone of the system, handling high-throughput data streams with robustness. 
