@@ -29,11 +29,11 @@ function Projects() {
               description={
                 <span>
                   A final-year engineering project involving the creation 
-                  of <span className="purple">a Large Language Model (LLM)</span> based on the combination of 02 foundation models: <span className="purple">Gemini Pro - Gemini Pro Vision - Codey</span> using 
+                  of <span className="purple">a Large Language Model (LLM)</span> based on the combination of 03 foundation models: <span className="purple">GPT-4 - Gemini Pro Vision - Code Llama 70b</span> using 
                   <span className="purple"> LangChain </span> that will be capable of assisting the BI engineer throughout the entire delivery chain: from analysing 
                   the downstream business need and choosing the appropriate type of visualizations
                   to creating and interpreting those visualizations. With my 05 teammates, we plan 
-                  to integrate our tool with Power BI, Tableau and Qlik Sense initially, before extending it to other software later on.
+                  to integrate our tool with Power BI first and then Tableau, Qlik Sense and to other software later on.
                 </span>
               }
               ghLink="https://github.com/el-tegy/TolkAI"
